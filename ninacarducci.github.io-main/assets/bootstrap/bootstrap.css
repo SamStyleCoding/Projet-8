@@ -6090,6 +6090,8 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: 100% 100%;
+  background-color: #000;
+  filter: brightness(100%) contrast(200%);
 }
 
 /* rtl:options: {
@@ -6162,6 +6164,7 @@ textarea.form-control-lg {
 
 .carousel-dark .carousel-control-prev-icon,
 .carousel-dark .carousel-control-next-icon {
+  background-color: #000;
   filter: invert(1) grayscale(100);
 }
 .carousel-dark .carousel-indicators [data-bs-target] {
